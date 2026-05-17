@@ -91,7 +91,7 @@ def check_param(lst_param):
     if len(lst_param) == 3 and lst_param[1] == "-r":
         return True
     elif len(lst_param) == 5:
-        return check_two_param(lst_param)
+        return check_two_param(lst_param[1:3])
     elif len(lst_param) == 7:
         return check_three_param(lst_param)
     else:
