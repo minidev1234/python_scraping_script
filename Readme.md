@@ -1,15 +1,16 @@
-#Project name<br>
+__Project name__<br>
 spider.py<br>
 
-##Description<br>
+__Description__<br>
 The spider program allow you to extract all the images from a website, recursively, by
 providing a url as a parameter.<br>
 
-##Installation<br>
-'''bash<br>
-git clone git@github.com:minidev1234/python_scraping_script.git<br>
-cd python_scraping_script/spider/spider.py<br>
-chmod +x spider.py<br>
+__Installation__<br>
+```bash  
+git clone git@github.com:minidev1234/python_scraping_script.git  
+cd python_scraping_script/spider/spider.py  
+chmod +x spider.py  
+```
 
 __Usage__<br>
 ./spider [-rlp] URL<br>
