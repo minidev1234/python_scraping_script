@@ -18,9 +18,9 @@ __Usage__<br>
 ./spider [-rlp] URL<br>
 
 __Options__<br>
-- **'Option -r'** : recursively downloads the images in a URL received as a parameter.<br>
-- **'Option -r -l [N]'** : indicates the maximum depth level of the recursive download.If not indicated, it will be 5.<br>
-- **' Option -p [PATH]'** : indicates the path where the downloaded files will be saved.If not specified, ./data/ will be used.<br>
+- **-r** : recursively downloads the images in a URL received as a parameter.<br>
+- **-r -l [N]** : indicates the maximum depth level of the recursive download.If not indicated, it will be 5.<br>
+- **-p [PATH]** : indicates the path where the downloaded files will be saved.If not specified, ./data/ will be used.<br>
 
 __Features__<br>
 The program will download the following extensions by default:<br>
